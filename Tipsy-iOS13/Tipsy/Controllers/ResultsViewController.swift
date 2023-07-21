@@ -22,7 +22,7 @@ class ResultsViewController: UIViewController {
 
         totalLabel.text = totalValue
         settingsLabel.text = "Split between \(String(format: "%.0f", stepperCount!)) people, with \((tipCount ?? 0.0) * 100)% tip."
-        print(totalLabel.text)
+        print(settingsLabel.text)
     }
     
 
